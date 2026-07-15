@@ -390,7 +390,7 @@ export default function Portfolio() {
               ref={heroSubRef}
               className="font-mono text-sm text-[#888] mb-4 tracking-wide"
             >
-              {`// hello world`}
+              {`console.log("hello world")`}
             </p>
             <h1
               ref={heroNameRef}
