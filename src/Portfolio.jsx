@@ -9,7 +9,6 @@ const DATA = {
   role: "Aspiring MERN Stack Developer",
   intro:
     "I build clean, fast, and accessible web experiences — from development to deployment. Currently sharpening my craft with React, Node.js, and everything in between.",
-  resumeUrl: "#",
   email: "maneeshgoud.dev@gmail.com",
   github: "https://github.com/maneeshgoud-dev",
   linkedin: "https://www.linkedin.com/in/maneesh-goud-324354386/",
@@ -322,15 +321,6 @@ export default function Portfolio() {
         className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/70 border-b border-[#1a1a1a]"
       >
         <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
-          <a
-            href="#home"
-            onClick={(e) => handleNavClick(e, "#home")}
-            className="font-display font-semibold text-lg tracking-tight"
-          >
-            {DATA.name.split(" ")[0]}
-            <span className="text-[#666]">.</span>
-          </a>
-
           <ul className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
