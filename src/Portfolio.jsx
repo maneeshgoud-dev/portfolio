@@ -36,7 +36,7 @@ const DATA = {
         "A subsctription management web application that allows users to track and manage their subscriptions in one place. It provides features like subscription tracking and remindersto help users stay on top of their recurring expenses.",
       tech: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
       github: "https://github.com/maneeshgoud-dev/subtrakt",
-      live: "http://subtrakt-beta.vercel.app",
+      live: "http://sub-trakt.vercel.app",
     },
   ],
   timeline: [
