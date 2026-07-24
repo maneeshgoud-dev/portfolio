@@ -35,6 +35,7 @@ const DATA = {
       description:
         "A subsctription management web application that allows users to track and manage their subscriptions in one place. It provides features like subscription tracking and remindersto help users stay on top of their recurring expenses.",
       tech: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
+      image: "/images/subtrakt-preview.png",
       github: "https://github.com/maneeshgoud-dev/subtrakt",
       live: "http://sub-trakt.vercel.app",
     },
@@ -43,6 +44,7 @@ const DATA = {
       description:
         "A modern movie discovery platform that helps you find movies you'll love with ease. Explore, discover, and keep track of your favorite movies—all in one cinematic experience.",
       tech: ["React", "Appwrite", "Tailwind CSS"],
+      image: "/images/cineverse-preview.png",
       github: "https://github.com/maneeshgoud-dev/CineVerse",
       live: "http://get-into-cineverse.vercel.app",
     },
@@ -714,7 +716,7 @@ function ProjectCard({ project }) {
     >
       <div className="aspect-[16/10] bg-[#0d0d0d] border-b border-[#222] flex items-center justify-center">
         <img
-          src="/images/subtrakt-preview.png"
+          src={project.image}
           alt={`${project.title} preview`}
           className="w-full h-full object-cover"
         />
