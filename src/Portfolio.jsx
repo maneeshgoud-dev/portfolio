@@ -38,6 +38,14 @@ const DATA = {
       github: "https://github.com/maneeshgoud-dev/subtrakt",
       live: "http://sub-trakt.vercel.app",
     },
+    {
+      title: "CineVerse",
+      description:
+        "A modern movie discovery platform that helps you find movies you'll love with ease. Explore, discover, and keep track of your favorite movies—all in one cinematic experience.",
+      tech: ["React", "Appwrite", "Tailwind CSS"],
+      github: "https://github.com/maneeshgoud-dev/CineVerse",
+      live: "http://get-into-cineverse.vercel.app",
+    },
   ],
   timeline: [
     {
